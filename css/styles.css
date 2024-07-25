@@ -157,12 +157,18 @@ a {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-  background-size: 1440px;
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+}
+
+.mades-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mades-title {
@@ -224,15 +230,13 @@ a {
 
 .made-item {
   width: calc((100% - 72px) / 4);
-  width: 264px;
-  height: 112px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background-color: #f4f4fd;
 }
 
 .made-item-ul {
-  margin: 120px 0;
+  padding-top: 120px;
   display: flex;
   gap: 24px;
 }
